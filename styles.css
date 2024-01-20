@@ -1,0 +1,197 @@
+body{
+   background-color: rgba(0, 0, 0, 0.90); 
+   font-family: 'Helvetica', sans-serif;
+   font-size: 22px;
+   /* display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column; */
+   margin: 0;
+   padding: 0; 
+   width: 100%;
+}
+html{
+    width: 100%;
+}
+h2, h3, h4, h5{
+    color: white;
+    font-weight: 600;
+}
+
+/* Navigation bar */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px; */
+    border-bottom: 1px solid rgba(255, 245, 238, 0.90);
+    height: 69px;
+    width: 100%;
+    /* border: 2px solid white; */
+    position: fixed;
+    top:0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.98);
+}
+.nav-list{
+    list-style: none; /* Eliminate the bullet points of the unordered list*/
+    display: flex; /* list items horizontally aligned*/
+    justify-content: flex-end; /* Align items to the right*/
+    margin: 10px;
+    padding: 0;
+}
+.logo{
+    height: 50px;
+    margin-left: 10px;
+}
+.nav-list li{
+    margin-right: 20px;
+}
+.nav-list li:last-child {
+    margin-right: 0;
+}
+.nav-list a {
+    color:rgba(255, 245, 238, 0.90);
+    text-decoration: underline;
+    font-weight: lighter;
+}
+
+/* Main */
+main{
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1fpiyj3*_ga*MTMwMzU4NzAyNi4xNzAwNTg0Nzk3*_ga_3LRZM6TM9L*MTcwNTcyNDEwMC40My4xLjE3MDU3MjQ0ODMuNjAuMC4w');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 700px;
+    /* margin: 71px 50px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 90px;
+    margin-left: 50px;
+    margin-right: 50px;
+    /* width: 100%; */
+    /* border: 2px solid white; */
+}
+.description-main{
+    background-color: rgba(0, 0, 0, 0.90);
+    color:rgba(255, 245, 238, 0.90);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.description-main h2{
+    margin-top: 5px;
+}
+.description-main h4{
+    margin-bottom: 5px;
+    text-align: center;
+}
+/* Tea of the Month*/
+.tea-month{
+    background-color:(0, 0, 0, 0.90);
+    /* width: 75%; */
+    margin-left: 50px;
+    margin-right: 50px;
+    /* border: 2px solid white; */
+}
+.tea-month-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: (255, 245, 238, 0.90);
+}
+.teaimage{
+    height: 200px;
+    width: 300px;
+}
+.tea{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    /* border: 2px solid white; */
+}
+.tea h4{
+    margin: 10px;
+}
+.containers-tea{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+/* Locations */
+article{
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*e6n7pe*_ga*MTMwMzU4NzAyNi4xNzAwNTg0Nzk3*_ga_3LRZM6TM9L*MTcwNTc4MDEzMi40Ni4wLjE3MDU3ODAxMzIuNjAuMC4w');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    /* width: 100%; */
+    /* width: 85%; Same widht as in the main section */
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    overflow: auto;
+   
+}
+article h2{
+    margin-bottom: 15px;
+}
+.location{
+    height: 300px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.9);
+    margin: 20px 20px;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+}
+.container-locations{
+    height: 300;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* border: 2px solid white; */
+}
+/* Information */
+.information{
+    height: 200px;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* copyright*/
+footer{
+    /* box-sizing: border-box; */
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
